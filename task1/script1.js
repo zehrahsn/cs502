@@ -276,7 +276,7 @@ console.log(summ)
 // //6) arrayda tekrar olunan reqemleri artan sira ile duzun
 console.log(arr.sort())
 
-// //7) arraydaki en boyuk reqemi tapin ve nece defe tekrarlandigini gosterin(Math.max)
+//7) arraydaki en boyuk reqemi tapin ve nece defe tekrarlandigini gosterin(Math.max)
 let maxnumber= (Math.max(...arr))
 console.log(arr.filter(arr => arr == maxnumber).length)
 
