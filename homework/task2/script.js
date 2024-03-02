@@ -120,7 +120,7 @@ for (let i = 0; i < arr2.length; i++) {
 }
 console.log(doubleL);
 
-// 25 arr2 de terkibinde 2 't' herfi olan obyekt(ler)in key(ler)ini tapin.
+// 25 arr2 de terkibinde 2 't' herfi olan obyekt(ler)in key(ler)ini tapin
 let doubleT = [];
 for (let i = 0; i < arr2.length; i++) {
     let count = 0;
