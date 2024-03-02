@@ -84,7 +84,8 @@ console.log(total)
 //         item.name= 'SuperDev'
 //     }
 // })
-// console.log(arr2 )
+// console.log(arr2)
+
 // 20 arr2 de "name"-i en uzun olan obyektin key-i ni tapin
 var longest = arr2.reduce(
     function (a, b) {
@@ -110,7 +111,7 @@ let doubleL = [];
 for (let i = 0; i < arr2.length; i++) {
     let count = 0;
     for (let j = 0; j < arr2[i].name.length; j++) {
-        if (arr2[i].name[j] === 'l' || arr2[i].name[j] === 'l') {
+        if (arr2[i].name[j] === 'l') {
             count++;
         }
     }
@@ -125,7 +126,7 @@ let doubleT = [];
 for (let i = 0; i < arr2.length; i++) {
     let count = 0;
     for (let j = 0; j < arr2[i].name.length; j++) {
-        if (arr2[i].name[j] === 't' || arr2[i].name[j] === 't') {
+        if (arr2[i].name[j] === 't') {
             count++;
         }
     }
